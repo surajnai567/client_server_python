@@ -1,0 +1,20 @@
+Steps for Execution of Code:
+
+1) Store all module ie. S.py(server code), O.py(operations code), C.py(clients code) in a single folder.
+2) Create a new folder named 'Root' in the folder where the three codes exists, Open Root folder and create new folder named 'Admin' and now open the Admin folder and again create a text doctument named 'Register'.
+3) Now copy the path of the total folder from step 2, and update the path of the program wherever the data path is present in S.py(server code) and O.py(operations code).
+4) Run server code via python s.py then client via. python c.py
+5) Now client code gets intiated and we can see two options that is Login and Register. Now we need to select the option either login or register.
+6) If the client is new he/she needed to register first,He/she needed to create username and password. If the user is already existed one he can directly login.
+7) After loggin to the server with the username and password, We have five operations those are:
+            1.Create folder
+            2.Writefile
+            3.Readfile
+            4.List directories
+            5.Change Foldername
+            0.Logout
+8)Now we can access the operations by typing the option we want. If we select the option 0 you will be logged out.
+9)If one user using the server, no other user with the same username and password cannot loggin and acess denied prompt can be seen if this occured.
+
+***Note***: In the execution of code if there is any trouble or any error occured we can terminate code by pressing ctrl and C. By pressing ctrl and C the code gets terminated, We need to termintae code in both the prompt windows i.e server prompt and client prompt.
+            We can again initilize the codes using the above mentioned steps.
